@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+}
+
+.profile-image {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.header-content {
+    display: inline-block;
+}
+.main-nav {
+    position: fixed;
+    color: red;
+    top: 20px;
+    right: 20px;
+}
+
+.main-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.main-nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.content-section {
+    padding: 40px 20px;
+    margin-top: 10px;
+    margin-bottom: 20px; 
+}
+
+button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: neon;
+}
+
+.project {
+    margin-bottom: 30px;
+}
+
+.project h3 {
+    margin-bottom: 10px;
+}
+
+.project ul {
+    padding-left: 20px;
+}
+
+.contact-nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-nav ul li {
+    margin-bottom: 10px;
+}
+
+.contact-nav ul li a {
+    color: red;
+    text-decoration: none;
+}
+
+.contact-nav ul li a:hover {
+    color: crimson;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
